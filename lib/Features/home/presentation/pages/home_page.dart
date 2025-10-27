@@ -1,5 +1,5 @@
-import 'package:claen_test/Features/home/data/data_sources/local/home_local_data_source_impl.dart';
-import 'package:claen_test/Features/home/data/data_sources/remote/home_remote_data_source_impl.dart';
+import 'package:claen_test/Features/home/api/data_source/home_local_data_source_impl.dart';
+import 'package:claen_test/Features/home/api/data_source/home_remote_data_source_impl.dart';
 import 'package:claen_test/Features/home/data/repositories/home_repo_impl.dart';
 import 'package:claen_test/Features/home/domain/use_cases/get_category_usecase.dart';
 import 'package:claen_test/Features/home/domain/use_cases/get_products_usecase.dart';

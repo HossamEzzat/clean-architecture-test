@@ -12,11 +12,11 @@ class HomeViewModel {
   final GetCategoryUseCase getCategoryUseCase;
   final GetProductsUseCase getProductsUseCase;
 
-  get product {
+  getProduct() {
     List<ProductEntities> products = getProductsUseCase.call();
   }
 
-  get category {
+  getCategory() {
     List<CategoryEntities> category = getCategoryUseCase.call();
   }
 }
